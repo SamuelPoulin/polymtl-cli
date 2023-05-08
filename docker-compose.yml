@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  cli:
+    restart: always
+    build:
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    volumes:
+      - ./output/:/usr/src/polymtl-cli/output/

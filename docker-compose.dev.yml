@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  cli:
+    build:
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./src/:/usr/src/polymtl-cli/src/

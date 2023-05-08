@@ -1,0 +1,22 @@
+{
+  "name": "polymtl-cli",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "ts-node src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.0",
+    "@types/pdf-parse": "^1.1.1"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "pdf-parse": "^1.1.1",
+    "playwright": "^1.33.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
